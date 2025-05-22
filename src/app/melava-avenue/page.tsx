@@ -84,7 +84,7 @@ const MelavaAvenue = () => {
                                 name: "Duville Estate",
                                 logo: {
                                     "@type": "ImageObject",
-                                    url: "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Navbar/Logo.png?tr=w-128",
+                                    url: "https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Navbar/Logo.png?tr=w-128",
                                 },
                             },
                             datePublished: "",

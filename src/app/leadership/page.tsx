@@ -26,8 +26,11 @@ const TeamPage = () => {
     <>
       <div
         style={{
+          // backgroundImage: `${
+          //   width >= 640 ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Leadership/Leadership_banner_Image.jpg?updatedAt=1707284796176)` : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Leadership/LeadershipBannerMob.jpg?updatedAt=1707284804175)`
+          // }`,
           backgroundImage: `${
-            width >= 640 ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Leadership/Leadership_banner_Image.jpg?updatedAt=1707284796176)` : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Leadership/LeadershipBannerMob.jpg?updatedAt=1707284804175)`
+            width >= 640 ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Leadership/Leadership_banner_Image.jpg?updatedAt=1747813541707)` : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Leadership/LeadershipBannerMob.jpg?updatedAt=1747813541636)`
           }`,
           backgroundPosition: "center",
           backgroundPositionY: "10%",

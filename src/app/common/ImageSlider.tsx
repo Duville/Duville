@@ -54,7 +54,7 @@ const ImageSlider = (props) => {
                 {images?.map((img, idx) => (
                     <SwiperSlide key={idx} className="swiper-slide relative ">
                         <Image
-                            // loader={imageKitLoader}
+                            loader={imageKitLoader}
                             height={2000}
                             width={2000}
                             src={img.bigImg}

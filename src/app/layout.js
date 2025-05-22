@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         "@type": "Organization",
         name: "Duville Estates Private Limited",
         url: "https://duville.com/",
-        logo: "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Navbar/Logo.png?tr=w-128",
+        logo: "https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Navbar/Logo.png?tr=w-128",
         alternateName: "Duville Estates",
         sameAs: [
             "https://www.facebook.com/riverdalekharadi",
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         "@context": "https://schema.org",
         "@type": "RealEstateAgent",
         name: "Duville Estates Real Estate Agent",
-        image: "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Agent/AgentLogo.png",
+        image: "https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Agent/AgentLogo.png",
         url: "https://duville.com/real-estate-agent",
         telephone: "+91 9922992628",
         address: {

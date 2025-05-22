@@ -42,7 +42,7 @@ const RiverdaleGrand = () => {
                             "@context": "https://schema.org/",
                             "@type": "Product",
                             name: "Duville Riverdale Grand in Kharadi Pune | Duville Estate",
-                            image: "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/RiverdaleGrand/Banner.jpg?updatedAt=1707284637207",
+                            image: "https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/hero-banners/DGrandBanner.jpg?updatedAt=1747901887668",
                             description:
                                 "Find your dream home at Riverdale Grand in Kharadi, Pune. Premium apartments with top-class amenities by Duville Estate. Contact us today!",
                             brand: "Duville Estate",
@@ -74,7 +74,7 @@ const RiverdaleGrand = () => {
                                 "Find your dream home at Riverdale Grand in Kharadi, Pune. Premium apartments with top-class amenities by Duville Estate. Contact us today!",
                             image: {
                                 "@type": "ImageObject",
-                                url: "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/RiverdaleGrand/Banner.jpg?updatedAt=1707284637207",
+                                url: "https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/hero-banners/DGrandBanner.jpg?updatedAt=1747901887668",
                             },
                             author: {
                                 "@type": "Organization",
@@ -85,7 +85,7 @@ const RiverdaleGrand = () => {
                                 name: "Duville Estate",
                                 logo: {
                                     "@type": "ImageObject",
-                                    url: "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Navbar/Logo.png?tr=w-128",
+                                    url: "https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Navbar/Logo.png?tr=w-128",
                                 },
                             },
                             datePublished: "",
