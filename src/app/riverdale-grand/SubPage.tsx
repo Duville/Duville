@@ -203,10 +203,15 @@ export const SubPage = () => {
             {/* Header  */}
             <div
                 style={{
+                    // backgroundImage: `${
+                    //     width >= 640
+                    //         ? `url(https://res.cloudinary.com/dfvccxflr/image/upload/v1732800621/projects/DGrandBanner.jpg)`
+                    //         : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/ProjectPageMobBanner/RiverdaleGrand.jpg?updatedAt=1707284741100})`
+                    // }`,
                     backgroundImage: `${
                         width >= 640
-                            ? `url(https://res.cloudinary.com/dfvccxflr/image/upload/v1732800621/projects/DGrandBanner.jpg)`
-                            : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/ProjectPageMobBanner/RiverdaleGrand.jpg?updatedAt=1707284741100})`
+                            ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/hero-banners/DGrandBanner.jpg?updatedAt=1747901887668)`
+                            : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/ProjectPageMobBanner/RiverdaleGrand.jpg?updatedAt=1747813568150})`
                     }`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",

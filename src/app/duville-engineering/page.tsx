@@ -304,13 +304,24 @@ const EngineerPage = () => {
                     </div>
                 </div> */}
 
-                <div>
+                {/* <div>
                     <img
                         src="https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Engineer/assocham%20duviile.png?updatedAt=1744717348268"
                         className="hidden sm:block"
                     />
                     <img
                         src="https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Engineer/mob.png?updatedAt=1744717917100"
+                        className="sm:hidden"
+                    />
+                </div> */}
+
+                <div>
+                    <img
+                        src="https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Engineer/assocham%20duviile.png?updatedAt=1747813512417"
+                        className="hidden sm:block"
+                    />
+                    <img
+                        src="https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Engineer/mob.png?updatedAt=1747813516137"
                         className="sm:hidden"
                     />
                 </div>

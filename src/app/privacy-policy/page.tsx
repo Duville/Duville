@@ -332,10 +332,15 @@ const page = () => {
     <div className="overflow-x-hidden">
       <div
         style={{
-          backgroundImage: `${
+          // backgroundImage: `${
+          //   width >= 640
+          //     ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/privacy-policy/banner.jpg?updatedAt=1707284756639)`
+          //     : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/privacy-policy/banner.jpg?updatedAt=1707284756639)`
+          // }`,
+           backgroundImage: `${
             width >= 640
-              ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/privacy-policy/banner.jpg?updatedAt=1707284756639)`
-              : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/privacy-policy/banner.jpg?updatedAt=1707284756639)`
+              ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/privacy-policy/banner.jpg?updatedAt=1747813559867)`
+              : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/privacy-policy/banner.jpg?updatedAt=1747813559867)`
           }`,
           backgroundPosition: "center",
           backgroundSize: "cover",

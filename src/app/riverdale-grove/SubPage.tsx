@@ -113,10 +113,16 @@ const SubPage = () => {
             {/* Header  */}
             <div
                 style={{
+                    // backgroundImage: `${
+                    //     width >= 640
+                    //         ? `url(https://res.cloudinary.com/dfvccxflr/image/upload/v1732800461/projects/DGroveBanner.jpg)`
+                    //         : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/ProjectPageMobBanner/Grove.jpg?updatedAt=1707284733708)`
+                    // }`,
+
                     backgroundImage: `${
                         width >= 640
-                            ? `url(https://res.cloudinary.com/dfvccxflr/image/upload/v1732800461/projects/DGroveBanner.jpg)`
-                            : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/ProjectPageMobBanner/Grove.jpg?updatedAt=1707284733708)`
+                            ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/hero-banners/DGroveBanner.jpg?updatedAt=1747901887197)`
+                            : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/ProjectPageMobBanner/Grove.jpg?updatedAt=1747813566409)`
                     }`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",

@@ -39,7 +39,7 @@ const SubPage = () => {
 
     const melaveOpportunity: IMelavaCard[] = [
         {
-            img: "/Melava/melava-oppor-1.jpg",
+            img: "/Melava/melava-oppor-1.jpeg",
             heading:
                 "Vibrant restaurant spaces for the most exquisite culinary palettes",
             bodyText:
@@ -47,7 +47,7 @@ const SubPage = () => {
             left: true,
         },
         {
-            img: "/Melava/melava-oppor-2.jpg",
+            img: "/Melava/melava-oppor-2.png",
             heading: "Dynamic retail spaces for supermarket franchises",
             bodyText:
                 "Bon vivants find nothing more satisfying than scavenging for gourmet foods, assorted groceries and epicurean delights at a premium supermarket. Melava offers impressive glass-front spaces with ample ceiling height ready to accommodate leading supermarket franchises. Making this type of establishment the center of attraction and bringing in heavy footfalls to keep the business impelling.",
@@ -87,10 +87,15 @@ const SubPage = () => {
             {/* Header  */}
             <div
                 style={{
+                    // backgroundImage: `${
+                    //     width >= 640
+                    //         ? `url(https://res.cloudinary.com/dfvccxflr/image/upload/v1732800296/projects/DMelavaBanner.jpg)`
+                    //         : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Melava/mob-banner.jpg?updatedAt=1707284774906)`
+                    // }`,
                     backgroundImage: `${
                         width >= 640
-                            ? `url(https://res.cloudinary.com/dfvccxflr/image/upload/v1732800296/projects/DMelavaBanner.jpg)`
-                            : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Melava/mob-banner.jpg?updatedAt=1707284774906)`
+                            ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/hero-banners/DMelavaBanner.jpg?updatedAt=1747901136304)`
+                            : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Melava/mob-banner.jpg?updatedAt=1747813550402)`
                     }`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",

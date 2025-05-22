@@ -152,10 +152,15 @@ const page = () => {
                 <div
                     className="w-screen h-screen"
                     style={{
-                        backgroundImage: `${
+                        // backgroundImage: `${
+                        //     width >= 640
+                        //         ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/safety/banner.jpg?updatedAt=1707285162303)`
+                        //         : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/safety/banner_mob.jpg?updatedAt=1707285162294})`
+                        // }`,
+                         backgroundImage: `${
                             width >= 640
-                                ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/safety/banner.jpg?updatedAt=1707285162303)`
-                                : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/safety/banner_mob.jpg?updatedAt=1707285162294})`
+                                ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Community/safety/banner.jpg?updatedAt=1747813453475)`
+                                : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Community/safety/banner_mob.jpg?updatedAt=1747813453456})`
                         }`,
                         backgroundPosition: "center",
                         backgroundSize: "cover",

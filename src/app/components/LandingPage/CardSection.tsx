@@ -367,7 +367,8 @@ const CardSection = () => {
             <div className="w-[95%] md:max-w-7xl mx-auto mt-10 md:h-96  flex flex-col md:flex-row gap-10">
                 <div
                     style={{
-                        backgroundImage: `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Fifth.png?updatedAt=1707284444954)`,
+                        // backgroundImage: `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Fifth.png?updatedAt=1707284444954)`,
+                        backgroundImage: `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Fifth.png?updatedAt=1747813520238)`,
                     }}
                     className="-z-0 w-full h-full min-h-[400px] md:min-h-0 bg-no-repeat border-solid border border-[#DFDEDE] bg-right"
                 >
@@ -390,7 +391,8 @@ const CardSection = () => {
 
                 <div
                     style={{
-                        backgroundImage: `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/frame@2x.png?updatedAt=1707284450995)`,
+                        // backgroundImage: `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/frame@2x.png?updatedAt=1707284450995)`,
+                        backgroundImage: `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/frame@2x.png?updatedAt=1747813521297)`,
                         backgroundPosition: "100px 130px",
                         backgroundSize: "300px",
                     }}
@@ -415,7 +417,8 @@ const CardSection = () => {
 
                 <div
                     style={{
-                        backgroundImage: `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Seventh.png?updatedAt=1707284492207)`,
+                        // backgroundImage: `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Seventh.png?updatedAt=1707284492207)`,
+                        backgroundImage: `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Seventh.png?updatedAt=1747813660480)`,
                     }}
                     className="-z-0 w-full h-full min-h-[400px] md:min-h-0 bg-no-repeat border-solid border border-[#DFDEDE]  bg-bottom"
                 >

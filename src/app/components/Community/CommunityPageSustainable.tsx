@@ -67,10 +67,15 @@ const CommunityPageSustainable: React.FC<IPROPS> = (props) => {
         <div
           className="w-screen h-screen "
           style={{
-            backgroundImage: `${
+            // backgroundImage: `${
+            //   width >= 640
+            //     ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/sustainability/banner.jpg?updatedAt=1707285138700)`
+            //     : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/sustainability/banner_mob.jpg?updatedAt=1707285138899)`
+            // }`,
+             backgroundImage: `${
               width >= 640
-                ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/sustainability/banner.jpg?updatedAt=1707285138700)`
-                : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/sustainability/banner_mob.jpg?updatedAt=1707285138899)`
+                ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Community/sustainability/banner.jpg?updatedAt=1747813463000)`
+                : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Community/sustainability/banner_mob.jpg?updatedAt=1747813462999)`
             }`,
             backgroundPosition: "center",
             backgroundSize: "cover",

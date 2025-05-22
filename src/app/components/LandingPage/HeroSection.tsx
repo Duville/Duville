@@ -34,14 +34,16 @@ const HeroSection = () => {
             <Navbar />
             <div className="h-screen flex">
                 <video
-                    src="https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Home/Banner.webm/ik-video.mp4?updatedAt=1744720455304"
+                    // src="https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Home/Banner.webm/ik-video.mp4?updatedAt=1744720455304"
+                    src="https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Home/Banner.webm/ik-video.mp4?tr=orig&updatedAt=1747813527870"
                     muted
                     autoPlay
                     loop
                     className=" hidden md:block absolute top-0 scale-y-105  w-full  object-cover -z-20"
                 ></video>
                 <video
-                    src="https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Home/Banner-mob.webm/ik-video.mp4?updatedAt=1744720848993"
+                    // src="https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Home/Banner-mob.webm/ik-video.mp4?updatedAt=1744720848993"
+                    src="https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Home/Banner-mob.mp4?updatedAt=1747813524381"
                     muted
                     autoPlay
                     loop

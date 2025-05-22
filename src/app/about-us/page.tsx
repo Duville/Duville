@@ -17,7 +17,8 @@ const Page = () => {
                 <div
                     className="w-screen h-[400px] md:h-screen"
                     style={{
-                        backgroundImage: `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/About-us/aboutus-banner.jpg?updatedAt=1707285200382)`,
+                        // backgroundImage: `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/About-us/aboutus-banner.jpg?updatedAt=1707285200382)`,
+                        backgroundImage: `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/About-us/aboutus-banner.jpg?updatedAt=1747813437868)`,
                         backgroundPosition: "center",
                         backgroundSize: "cover",
                         backgroundRepeat: "no-repeat",

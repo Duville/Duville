@@ -56,21 +56,39 @@ const Timeline = () => {
         return () => window.removeEventListener("resize", handleWindowResize);
     }, [width]);
 
+    // const dbcImages = [
+    //     { DImg: "1920+x1072+edits-01.jpg", MImg: "DuvilleTimelineImages/mob/1.jpg" },
+    //     { DImg: "1920+x1072+edits-02.jpg", MImg: "DuvilleTimelineImages/mob/2.jpg" },
+    //     { DImg: "1920 x1072+edits-03.jpg", MImg: "DuvilleTimelineImages/mob/3.jpg" },
+    //     { DImg: "1920 x1072+edits-04.jpg", MImg: "DuvilleTimelineImages/mob/4.jpg" },
+    //     {
+    //         DImg: "1915+timeline+images-04.jpg",
+    //         MImg: "DuvilleTimelineImages/mob/5.jpg",
+    //     },
+    //     { DImg: "1920 x1072+edits-05.jpg", MImg: "DuvilleTimelineImages/mob/6.jpg" },
+    //     { DImg: "1920 x1072+edits-06.jpg", MImg: "DuvilleTimelineImages/mob/7.jpg" },
+    //     { DImg: "1920 x1072+edits-07.jpg", MImg: "DuvilleTimelineImages/mob/8.jpg" },
+    //     { DImg: "1920 x1072+edits-08.jpg", MImg: "DuvilleTimelineImages/mob/9.jpg" },
+    //     { DImg: "1920 x1072+edits-09.jpg", MImg: "DuvilleTimelineImages/mob/10.jpg" },
+    //     { DImg: "1920 x1072+edits-10.jpg", MImg: "DuvilleTimelineImages/mob/11.jpg" },
+    // ];
+
+
     const dbcImages = [
-        { DImg: "1920+x1072+edits-01.jpg", MImg: "DuvilleTimelineImages/mob/1.jpg" },
-        { DImg: "1920+x1072+edits-02.jpg", MImg: "DuvilleTimelineImages/mob/2.jpg" },
-        { DImg: "1920 x1072+edits-03.jpg", MImg: "DuvilleTimelineImages/mob/3.jpg" },
-        { DImg: "1920 x1072+edits-04.jpg", MImg: "DuvilleTimelineImages/mob/4.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920+x1072+edits-01.jpg", MImg: "DuvilleTimelineImages/mob/1.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920+x1072+edits-02.jpg", MImg: "DuvilleTimelineImages/mob/2.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920 x1072+edits-03.jpg", MImg: "DuvilleTimelineImages/mob/3.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920 x1072+edits-04.jpg", MImg: "DuvilleTimelineImages/mob/4.jpg" },
         {
-            DImg: "1915+timeline+images-04.jpg",
+            DImg: "DuvilleTimelineImages/FamilyLegacy/1915+timeline+images-04.jpg",
             MImg: "DuvilleTimelineImages/mob/5.jpg",
         },
-        { DImg: "1920 x1072+edits-05.jpg", MImg: "DuvilleTimelineImages/mob/6.jpg" },
-        { DImg: "1920 x1072+edits-06.jpg", MImg: "DuvilleTimelineImages/mob/7.jpg" },
-        { DImg: "1920 x1072+edits-07.jpg", MImg: "DuvilleTimelineImages/mob/8.jpg" },
-        { DImg: "1920 x1072+edits-08.jpg", MImg: "DuvilleTimelineImages/mob/9.jpg" },
-        { DImg: "1920 x1072+edits-09.jpg", MImg: "DuvilleTimelineImages/mob/10.jpg" },
-        { DImg: "1920 x1072+edits-10.jpg", MImg: "DuvilleTimelineImages/mob/11.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920 x1072+edits-05.jpg", MImg: "DuvilleTimelineImages/mob/6.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920 x1072+edits-06.jpg", MImg: "DuvilleTimelineImages/mob/7.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920 x1072+edits-07.jpg", MImg: "DuvilleTimelineImages/mob/8.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920 x1072+edits-08.jpg", MImg: "DuvilleTimelineImages/mob/9.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920 x1072+edits-09.jpg", MImg: "DuvilleTimelineImages/mob/10.jpg" },
+        { DImg: "DuvilleTimelineImages/FamilyLegacy/1920 x1072+edits-10.jpg", MImg: "DuvilleTimelineImages/mob/11.jpg" },
     ];
 
     const estateImages = [
@@ -234,7 +252,8 @@ const Timeline = () => {
                         <SwiperSlide>
                             <div className="hidden sm:block">
                                 <Image
-                                    loader={awsImageLoader}
+                                    // loader={awsImageLoader}
+                                    loader={imageKitLoader}
                                     height={2000}
                                     width={2000}
                                     src={width >= 640 ? ele.DImg : ele.MImg}

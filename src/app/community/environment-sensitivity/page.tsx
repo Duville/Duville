@@ -66,15 +66,31 @@ const page = () => {
     "Community/environment/4.png",
   ];
   return (
-    <CommunityPage
+    // <CommunityPage
+    //   heading1={"Environment Sensitivity "}
+    //   subDetails={subDetails}
+    //   sectionHeading="Environment Sensitivity"
+    //   BgImage={
+    //     "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/environment/sbi.jpg?updatedAt=1707285181236"
+    //   }
+    //   BgImageMob={
+    //     "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/environment/banner_mob.jpg?updatedAt=1707285176439"
+    //   }
+    //   BgImage2={"Common/banner-2.png"}
+    //   image={image}
+    //   mainImg={"Community/environment/main.jpg"}
+    //   cardHeading={"NATIONAL ENVIRONMENT DAY CELEBRATION"}
+    // />
+
+     <CommunityPage
       heading1={"Environment Sensitivity "}
       subDetails={subDetails}
       sectionHeading="Environment Sensitivity"
       BgImage={
-        "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/environment/sbi.jpg?updatedAt=1707285181236"
+        "https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Community/environment/sbi.jpg?updatedAt=1747813451127"
       }
       BgImageMob={
-        "https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Community/environment/banner_mob.jpg?updatedAt=1707285176439"
+        "https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Community/environment/banner_mob.jpg?updatedAt=1747813449910"
       }
       BgImage2={"Common/banner-2.png"}
       image={image}

@@ -114,10 +114,15 @@ const SubPage = () => {
             {/* Header  */}
             <div
                 style={{
+                    // backgroundImage: `${
+                    //     width >= 640
+                    //         ? `url(https://res.cloudinary.com/dfvccxflr/image/upload/v1732800096/reverdale-suites/DBanner.jpg)`
+                    //         : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/ProjectPageMobBanner/Suites.jpg?updatedAt=1707284739945)`
+                    // }`,
                     backgroundImage: `${
                         width >= 640
-                            ? `url(https://res.cloudinary.com/dfvccxflr/image/upload/v1732800096/reverdale-suites/DBanner.jpg)`
-                            : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/ProjectPageMobBanner/Suites.jpg?updatedAt=1707284739945)`
+                            ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/hero-banners/RS-DBanner.jpg?updatedAt=1747904605949)`
+                            : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/ProjectPageMobBanner/Suites.jpg?updatedAt=1747813568570)`
                     }`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",

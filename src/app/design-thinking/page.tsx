@@ -109,11 +109,18 @@ const DesignThinking = () => {
         <>
             <div
                 style={{
+                    // backgroundImage: `${
+                    //     width >= 640
+                    //         ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Design-Thinking/HeaderImage.jpg?updatedAt=1707285046008)`
+                    //         : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Design-Thinking/HeaderImageMob.jpg?updatedAt=1707285042409)`
+                    // }`,
+
                     backgroundImage: `${
                         width >= 640
-                            ? `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Design-Thinking/HeaderImage.jpg?updatedAt=1707285046008)`
-                            : `url(https://ik.imagekit.io/athxbsw68/Duville%20Estate/public/Design-Thinking/HeaderImageMob.jpg?updatedAt=1707285042409)`
+                            ? `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Design-Thinking/HeaderImage.jpg?updatedAt=1747813482977)`
+                            : `url(https://ik.imagekit.io/duvillerealstate/Duville%20Estate/public/Design-Thinking/HeaderImageMob.jpg?updatedAt=1747813482871)`
                     }`,
+
                     backgroundPosition: "center",
                     backgroundPositionY: "10%",
                     backgroundSize: "cover",
